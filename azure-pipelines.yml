@@ -1,15 +1,8 @@
 schedules:
-- cron: "0 * * * *"
+- cron: "*/15 * * * *"
   always: true
-  branches:
-    include:
-    - master
 
-# trigger:
-#   batch: true
-#   branches:
-#     include:
-#     - "*"
+trigger: null
 
 jobs:
 - job: linux_64

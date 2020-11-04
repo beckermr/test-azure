@@ -1,17 +1,14 @@
 schedules:
-- cron: "*/10 * * * *"
+- cron: "0 * * * *"
   branches:
     include:
     - master
 
-# pr:
-# - master
-
-# trigger:
-#   batch: true
-#   branches:
-#     include:
-#     - "*"
+trigger:
+  batch: true
+  branches:
+    exclude:
+    - "*"
 
 jobs:
 - job: linux_64

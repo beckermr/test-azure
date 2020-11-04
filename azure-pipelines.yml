@@ -1,5 +1,5 @@
 schedules:
-- cron: "*/30 * * * *"
+- cron: "0/30 * * * *"
   always: true
   branches:
     include:

@@ -11,8 +11,8 @@ pr:
 trigger:
   batch: true
   branches:
-    include:
-    - master
+    exclude:
+    - "*"
 
 jobs:
 - job: linux_64

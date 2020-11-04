@@ -5,7 +5,7 @@ schedules:
     include:
     - master
 
-trigger: none
+# trigger: none
 
 jobs:
 - job: linux_64

@@ -4,11 +4,11 @@ schedules:
     include:
     - master
 
-trigger:
-  batch: true
-  branches:
-    exclude:
-    - "*"
+# trigger:
+#   batch: true
+#   branches:
+#     include:
+#     - "*"
 
 jobs:
 - job: linux_64

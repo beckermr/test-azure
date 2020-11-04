@@ -1,5 +1,6 @@
 schedules:
 - cron: "0 * * * *"
+  always: true
   branches:
     include:
     - master

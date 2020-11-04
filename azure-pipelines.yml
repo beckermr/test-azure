@@ -1,6 +1,9 @@
 schedules:
 - cron: "*/15 * * * *"
   always: true
+  branches:
+    include:
+    - master
 
 trigger: none
 

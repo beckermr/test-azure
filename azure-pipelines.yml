@@ -1,0 +1,24 @@
+# schedules:
+# - cron: "0 * * * *"
+#   displayName: Feedstock conversion trigger
+#   branches:
+#     include:
+#     - master
+
+pr:
+- master
+
+trigger:
+  batch: true
+  branches:
+    include:
+    - master
+
+jobs:
+- job: linux_64
+  pool:
+    vmImage: ubuntu-16.04
+  steps:
+  - script: |
+      echo "running..."
+    displayName: Install dependencies

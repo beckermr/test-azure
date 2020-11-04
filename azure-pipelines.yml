@@ -11,7 +11,7 @@ pr:
 trigger:
   batch: true
   branches:
-    exclude:
+    include:
     - "*"
 
 jobs:

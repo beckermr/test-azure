@@ -1,9 +1,9 @@
-# schedules:
-# - cron: "0 * * * *"
-#   displayName: Feedstock conversion trigger
-#   branches:
-#     include:
-#     - master
+schedules:
+- cron: "*/10 * * * *"
+  displayName: Feedstock conversion trigger
+  branches:
+    include:
+    - master
 
 pr:
 - master

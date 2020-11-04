@@ -2,7 +2,7 @@ schedules:
 - cron: "*/15 * * * *"
   always: true
 
-trigger: None
+trigger: none
 
 jobs:
 - job: linux_64
